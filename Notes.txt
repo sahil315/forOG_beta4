@@ -1,0 +1,2 @@
+// Emulator location and script to run without Android Studio
+cd C:\Users\Administrator\AppData\Local\Android\Sdk\emulator && .\emulator.exe -avd Pixel_5_API_34

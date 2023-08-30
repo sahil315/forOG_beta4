@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "Run Start",
+		"command": "npm",
+		"args": ["run", "start"],
+		"type": "shell",
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
+	  },
+	  {
+		"label": "Run Emulator",
+		"command": "${workspaceFolder}/startAndEmulator.bat",
+		"type": "shell",
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
+	  },
+	  {
+		"label": "Run both",
+		"command": "Run Emulator & Run Start",
+		"type": "shell",
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
+	  }
+	]
+  }
+  
